@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name M2011LL1W01-switch)(type KiCad)(uri "$(KIPRJMOD)\\M2011LL1W01-switch.pretty")(options "")(descr ""))
+  (lib (name PJ-082BH-Barrel-Connector)(type KiCad)(uri "$(KIPRJMOD)\\PJ-082BH-Barrel-Connector.pretty")(options "")(descr ""))
+)

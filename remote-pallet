@@ -1,0 +1,9 @@
+Qty,partname,description,lib
+0,"D","Diode","device"
+0,"IOT-Photon-Headers","120Mhz ArM Cortex M3, 1MB flash, 218KB RAM","iot_photon_headers"
+0,"LM1084IS-3.3/NOPB","LM1084IS-3.3, 5A 27V Linear Regulator, Fixed Output 3.3V, TO-263","regul"
+0,"Q_NMOS_DGS","Transistor N-MOSFET (general)","device"
+0,"Q_PMOS_DGS","Transistor P-MOSFET (general)","device"
+0,"R","Resistor","device"
+0,"SPST","Interrupteur simple","device"
+0,"ZENER","Diode zener","device"
