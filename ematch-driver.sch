@@ -198,7 +198,7 @@ Wire Wire Line
 	3550 2900 3050 2900
 Connection ~ 3050 2900
 Wire Wire Line
-	4100 5300 4100 5750
+	4050 6350 4050 6800
 Wire Wire Line
 	3550 4100 3550 4900
 Connection ~ 4100 4650
@@ -216,13 +216,13 @@ Text HLabel 3400 4650 0    60   Input ~ 0
 VSENSE
 Text HLabel 4100 5000 2    60   Input ~ 0
 EMATCH_VCC
-Text HLabel 4100 5300 2    60   Input ~ 0
+Text HLabel 4050 6350 2    60   Input ~ 0
 EMATCH_GND
 Text HLabel 3050 3000 3    60   Input ~ 0
 GND
 Text HLabel 3550 5500 3    60   Input ~ 0
 GND
-Text HLabel 4100 5750 3    60   Input ~ 0
+Text HLabel 4050 6800 3    60   Input ~ 0
 GND
 Wire Wire Line
 	4100 4650 4050 4650
@@ -247,5 +247,16 @@ F 3 "https://www.onsemi.com/pub_link/Collateral/NTD2955-D.PDF" H 4000 1750 50  0
 F 4 "NTD2955T4GOSCT-ND	" H 4000 1750 60  0001 C CNN "digikey part number"
 	1    4000 1750
 	1    0    0    1   
+$EndComp
+$Comp
+L TVS D?
+U 1 1 58A0E744
+P 5200 5300
+F 0 "D?" H 5200 5450 50  0000 C CNN
+F 1 "TVS" H 5200 5150 50  0000 C CNN
+F 2 "do-214ac" H 5550 4550 50  0000 C CNN
+F 3 "" H 5200 5300 50  0000 C CNN
+	1    5200 5300
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
