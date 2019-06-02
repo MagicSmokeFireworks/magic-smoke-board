@@ -1,9 +1,100 @@
-Qty,partname,description,lib
-0,"D","Diode","device"
-0,"IOT-Photon-Headers","120Mhz ArM Cortex M3, 1MB flash, 218KB RAM","iot_photon_headers"
-0,"LM1084IS-3.3/NOPB","LM1084IS-3.3, 5A 27V Linear Regulator, Fixed Output 3.3V, TO-263","regul"
-0,"Q_NMOS_DGS","Transistor N-MOSFET (general)","device"
-0,"Q_PMOS_DGS","Transistor P-MOSFET (general)","device"
-0,"R","Resistor","device"
-0,"SPST","Interrupteur simple","device"
-0,"ZENER","Diode zener","device"
+Source,D:\documents\workspace\magic-smoke\magic-smoke-board\remote-pallet.sch
+Kicad Rev,Eeschema 4.0.1-stable
+Generated Date,30-Mar-18 23:28:14
+
+Title,Fireworks Remote Pallet
+Company,Not Set
+Revision,1.0
+Date Issue,Not Set
+
+Reference,Value,digikey part no,type,mates with,Library,Library Ref
+U1,Photon Power,LM1085ISX-3.3/NOPBCT-ND,,,regul,LM1084IS-3.3/NOPB
+SW2,Arm Hardware,360-3287-ND,,,device,SPST
+Q1,EMatch Test,SSM3K324RLFCT-ND,,,device,Q_NMOS_GSD
+SW1,Power,360-3287-ND,,,device,SPST
+C1,10uF,511-1683-1-ND,tantalum,,device,CP1
+C2,10uF,511-1683-1-ND,tantalum,,device,CP1
+C3,10uF,587-1290-1-ND,low-esr ceramic,,device,CP1
+C4,10uF,490-5523-1-ND,low-esr ceramic,,device,CP1
+U2,PHOTON,particle-boards,PHOTON
+M0,E-MATCH,277-2518-ND,,,conn,TEST
+M1,E-MATCH,277-2518-ND,,,conn,TEST
+M2,E-MATCH,277-2518-ND,,,conn,TEST
+M3,E-MATCH,277-2518-ND,,,conn,TEST
+M4,E-MATCH,277-2518-ND,,,conn,TEST
+M5,E-MATCH,277-2518-ND,,,conn,TEST
+M6,E-MATCH,277-2518-ND,,,conn,TEST
+M7,E-MATCH,277-2518-ND,,,conn,TEST
+J1,Power,CP-082BHCT-ND,,CP3-002BH-ND,device,JACK_2P
+U3,Armed Sense,AP2202K-3.3TRG1DICT-ND,,,IC REG LDO 3.3V 0.2A SOT23-5,MIC94310-SYM5-TR
+Battery1,Red,732-4978-1-ND,,,device,LED
+3.3V1,Yellow,732-4981-1-ND,,,device,LED
+Armed1,Green,732-4971-1-ND,,,device,LED
+R1,600,311-600HCT-ND,,,device,R
+R3,600,311-600HCT-ND,,,device,R
+R2,165,311-165HRCT-ND,,,device,R
+C5,100pF,device,C
+R9,500,311-499HRCT-ND,,,device,R
+R10,10k,311-10KGRCT-ND,,,device,R
+Q2,Q_NMOS_GSD,SSM3K324RLFCT-ND,,,device,Q_NMOS_GSD
+R11,10k,311-10KGRCT-ND,,,device,R
+D2,D,641-1282-2-ND,,,device,D
+D1,ZENER,CD0603-Z3V3CT-ND,,,device,ZENER
+Q3,Q_PMOS_GDS,NTD2955T4GOSCT-ND	,,,device,Q_PMOS_GDS
+D17,TVS,SMAJ30CALFTR-ND,,,device,TVS
+R12,500,311-499HRCT-ND,,,device,R
+R13,10k,311-10KGRCT-ND,,,device,R
+Q4,Q_NMOS_GSD,SSM3K324RLFCT-ND,,,device,Q_NMOS_GSD
+R14,10k,311-10KGRCT-ND,,,device,R
+D4,D,641-1282-2-ND,,,device,D
+D3,ZENER,CD0603-Z3V3CT-ND,,,device,ZENER
+Q5,Q_PMOS_GDS,NTD2955T4GOSCT-ND	,,,device,Q_PMOS_GDS
+D18,TVS,SMAJ30CALFTR-ND,,,device,TVS
+R15,500,311-499HRCT-ND,,,device,R
+R16,10k,311-10KGRCT-ND,,,device,R
+Q6,Q_NMOS_GSD,SSM3K324RLFCT-ND,,,device,Q_NMOS_GSD
+R17,10k,311-10KGRCT-ND,,,device,R
+D6,D,641-1282-2-ND,,,device,D
+D5,ZENER,CD0603-Z3V3CT-ND,,,device,ZENER
+Q7,Q_PMOS_GDS,NTD2955T4GOSCT-ND	,,,device,Q_PMOS_GDS
+D19,TVS,SMAJ30CALFTR-ND,,,device,TVS
+R18,500,311-499HRCT-ND,,,device,R
+R19,10k,311-10KGRCT-ND,,,device,R
+Q8,Q_NMOS_GSD,SSM3K324RLFCT-ND,,,device,Q_NMOS_GSD
+R20,10k,311-10KGRCT-ND,,,device,R
+D8,D,641-1282-2-ND,,,device,D
+D7,ZENER,CD0603-Z3V3CT-ND,,,device,ZENER
+Q9,Q_PMOS_GDS,NTD2955T4GOSCT-ND	,,,device,Q_PMOS_GDS
+D20,TVS,SMAJ30CALFTR-ND,,,device,TVS
+R21,500,311-499HRCT-ND,,,device,R
+R22,10k,311-10KGRCT-ND,,,device,R
+Q10,Q_NMOS_GSD,SSM3K324RLFCT-ND,,,device,Q_NMOS_GSD
+R23,10k,311-10KGRCT-ND,,,device,R
+D10,D,641-1282-2-ND,,,device,D
+D9,ZENER,CD0603-Z3V3CT-ND,,,device,ZENER
+Q11,Q_PMOS_GDS,NTD2955T4GOSCT-ND	,,,device,Q_PMOS_GDS
+D21,TVS,SMAJ30CALFTR-ND,,,device,TVS
+R24,500,311-499HRCT-ND,,,device,R
+R25,10k,311-10KGRCT-ND,,,device,R
+Q12,Q_NMOS_GSD,SSM3K324RLFCT-ND,,,device,Q_NMOS_GSD
+R26,10k,311-10KGRCT-ND,,,device,R
+D12,D,641-1282-2-ND,,,device,D
+D11,ZENER,CD0603-Z3V3CT-ND,,,device,ZENER
+Q13,Q_PMOS_GDS,NTD2955T4GOSCT-ND	,,,device,Q_PMOS_GDS
+D22,TVS,SMAJ30CALFTR-ND,,,device,TVS
+R27,500,311-499HRCT-ND,,,device,R
+R28,10k,311-10KGRCT-ND,,,device,R
+Q14,Q_NMOS_GSD,SSM3K324RLFCT-ND,,,device,Q_NMOS_GSD
+R29,10k,311-10KGRCT-ND,,,device,R
+D14,D,641-1282-2-ND,,,device,D
+D13,ZENER,CD0603-Z3V3CT-ND,,,device,ZENER
+Q15,Q_PMOS_GDS,NTD2955T4GOSCT-ND	,,,device,Q_PMOS_GDS
+D23,TVS,SMAJ30CALFTR-ND,,,device,TVS
+R30,500,311-499HRCT-ND,,,device,R
+R31,10k,311-10KGRCT-ND,,,device,R
+Q16,Q_NMOS_GSD,SSM3K324RLFCT-ND,,,device,Q_NMOS_GSD
+R32,10k,311-10KGRCT-ND,,,device,R
+D16,D,641-1282-2-ND,,,device,D
+D15,ZENER,CD0603-Z3V3CT-ND,,,device,ZENER
+Q17,Q_PMOS_GDS,NTD2955T4GOSCT-ND	,,,device,Q_PMOS_GDS
+D24,TVS,SMAJ30CALFTR-ND,,,device,TVS
